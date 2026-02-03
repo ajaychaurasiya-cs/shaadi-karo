@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE */
+  scrollbar-width: none;     /* Firefox */
+}
+.ui-green{
+  filter:invert(1)
+   brightness(0.1) saturate(100) blur(2px);
+}
+.ui-gray{
+  filter:
+  brightness(.5) saturate(10) blur(2px)
+  grayscale(1);
+}
+.ui-dark{
+  filter:
+   brightness(0.03) saturate(100)blur(2px)
+}
+.ui-light{
+  filter: saturate(4)  contrast(.7) blur(2px)
+}
+
