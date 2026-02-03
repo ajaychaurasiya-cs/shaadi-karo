@@ -14,7 +14,7 @@ import ResetPassword from "./pages/ResetPassword";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import { CasteProvider } from "./context/CasteContext";
 import Navbar from "./components/Navbar";
-import { NotifyProvider } from "./context/notify";
+import { NotifyProvider } from "./context/Notify";
 
 function AppRoutes() {
   const { token } = useAuth();
