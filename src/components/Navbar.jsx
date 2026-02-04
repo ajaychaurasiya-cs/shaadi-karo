@@ -5,7 +5,7 @@ import { useTheme } from "../context/Theme";
 import Text from "../layout/Text";
 import { useEffect, useState } from "react";
 import { FaSun } from "react-icons/fa";
-import { useNotify } from "../context/notify";
+import { useNotify } from "../context/Notify";
 
 
 const Navbar = () => {

@@ -6,7 +6,7 @@ import Container from "../layout/Container";
 import Card from "../layout/Card";
 import SubT from "../layout/SubT";
 import Text from "../layout/Text";
-import { useNotify } from "../context/notify";
+import { useNotify } from "../context/Notify";
 
 const Viewers = () => {
   const { viewerNoti, setViewerNoti } = useNotify();

@@ -15,10 +15,6 @@ import { AuthProvider, useAuth } from "./context/AuthContext";
 import { CasteProvider } from "./context/CasteContext";
 import Navbar from "./components/Navbar";
 import { NotifyProvider } from "./context/Notify";
-<<<<<<< HEAD
-=======
-
->>>>>>> 56c1659 (error fix)
 
 function AppRoutes() {
   const { token } = useAuth();

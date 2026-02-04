@@ -7,7 +7,7 @@ import SubT from "../layout/SubT";
 
 import { MdClose, MdDelete, MdMoreVert, MdSend } from "react-icons/md";
 import { FaUser, FaArrowLeft } from "react-icons/fa";
-import { useNotify } from "../context/notify";
+import { useNotify } from "../context/Notify";
 import notify from "../utils/notify";
 import BlockUser from "../components/BlockUser";
 
